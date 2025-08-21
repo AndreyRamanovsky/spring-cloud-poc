@@ -1,4 +1,4 @@
-package common.validation.configserverplaygroung;
+package common.validation.configserverplayground;
 
 import common.validation.configserverplaygroung.service.CustomRoutingEnvironmentRepository;
 import io.micrometer.observation.ObservationRegistry;
@@ -14,7 +14,7 @@ import org.springframework.core.env.ConfigurableEnvironment;
 
 @SpringBootApplication
 @EnableConfigServer
-public class ConfigServerPlaygroungApplication {
+public class ConfigServerPlaygroundApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(ConfigServerPlaygroungApplication.class, args);
