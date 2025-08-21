@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    include: game, dev
+  config:
+    import: "optional:configserver:http://localhost:8888"
+
+  application:
+    name: test-profile-properties-service
+  cloud:
+    config:
+      label: "test-branch:main"
+      name: test-profile-properties-service
+      uri: http://localhost:8888
+
